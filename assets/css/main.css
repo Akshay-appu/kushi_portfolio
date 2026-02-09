@@ -1310,3 +1310,42 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+.hero-btns {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+/* Common button */
+.btn {
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Hire Me button */
+.hire-btn {
+  background-color: #ff4f8b;
+  color: #fff;
+  border: 2px solid #ff4f8b;
+}
+
+.hire-btn:hover {
+  background-color: transparent;
+  color: #ff4f8b;
+}
+
+/* Download CV button */
+.cv-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.cv-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
